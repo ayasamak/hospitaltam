@@ -1,0 +1,638 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    height:2000px;
+    perspective: 600px;
+}
+/*Start section7*/
+.section7
+{
+
+margin-top:100px;
+}
+.section7 .heading-section
+{
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    font-family: 'Work Sans', sans-serif;
+}
+.section7  .h-2
+{
+    font-size: 34px;
+font-weight: 800;
+margin-top: 5px;
+margin-bottom: 1.5rem;
+line-height: 1.5;
+color: rgba(0, 0, 0, 0.8);
+font-family: 'Work Sans', sans-serif;
+letter-spacing: -.3rem;
+}
+.section7  .p-1
+{
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+line-height: 1.8;
+font-weight: 400;
+}
+/***********PART 1*********************/
+.section7 .cont-2
+{
+    border:1px solid #fff;
+    width:100%;
+    height:600px;
+    margin-top:0px;
+}
+.section7 .doc-1
+{
+  position: relative;
+    width:23%;
+    height:500px;
+    border:1px solid #fff;
+    margin-top:70px;
+    float:left;
+   overflow: hidden;
+
+}
+.section7 .doc-1 .doctor1
+{
+    width:100%;
+    height:310px;
+    border:1px solid #fff;
+    background-size: cover;
+   background-position: fixed;
+   overflow: hidden;
+}
+.section7 .doc-1 .doctor1 img{max-width: 100%;height: 100%;transition: 1s;}
+.section7 .doc-1:hover img{transform: scale(1.2);}
+.section7 .doc-1 .overlay .one-ul
+{
+  position: absolute;
+    left: 0px;
+    right: 0px;
+    padding: 10px 10px;
+    background: rgb(255, 255, 255);
+    width:100%;
+    border:1px solid #fff;
+    margin-top:-40px;
+    opacity:0;
+    -webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out;
+}
+.section7 .doc-1:hover .one-ul{opacity: 1;}
+.section7 .doc-1 .overlay .one-ul .fa-twitter,.section7 .doc-1 .overlay .one-ul .fa-facebook ,.section7 .doc-1 .overlay .one-ul .fa-instagram,
+.section7 .doc-1 .overlay .one-ul .fa-google-plus-g
+{
+    margin-right: 10px;
+    display: inline-block;
+    color:#e9700e;
+}
+.section7 .doc-1 .h-3
+{
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0px;
+font-family: 'Work Sans', sans-serif;
+transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+}
+.section7 .doc-1:hover .h-3{
+    color: rgb(47, 137, 252);
+}
+.section7 .doc-1 .sp-3
+{
+   text-transform: uppercase;
+   color: rgb(179, 179, 179);
+   display: block;
+   letter-spacing: 1px;
+   margin-bottom: 0.9rem;
+   margin-top:10px;
+   font-family: 'Work Sans', sans-serif;
+}
+.section7 .doc-1 .p-doc
+{
+    font-family: 'Work Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+/*****************part1*******************************/
+/*****************part2*******************************/
+.section7 .doc-2
+{
+  position: relative;
+    width:23%;
+    height:500px;
+    border:1px solid #fff;
+    margin-top:70px;
+    float:left;
+    margin-left:2%;
+    overflow:hidden;
+}
+.section7 .doc-2 .doctor2
+{
+    width:100%;
+    height:310px;
+    border:1px solid #fff;
+    background-size: cover;
+   background-position: fixed;
+   overflow: hidden;
+}
+.section7 .doc-2 .doctor2 img{max-width: 100%;height: 100%;transition: 1s;}
+.section7 .doc-2:hover img{transform: scale(1.2);}
+.section7 .doc-2 .overlay .two-ul
+{
+  position: absolute;
+    left: 0px;
+    right: 0px;
+    padding: 10px 10px;
+    background: rgb(255, 255, 255);
+    width:100%;
+    border:1px solid #fff;
+    margin-top:-40px;
+    opacity: 0;
+    -webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out;
+}
+.section7 .doc-2:hover .two-ul{opacity: 1;}
+.section7 .doc-2 .overlay .two-ul .fa-twitter,.section7 .doc-2 .overlay .two-ul .fa-facebook ,.section7 .doc-2 .overlay .two-ul .fa-instagram,
+.section7 .doc-2 .overlay .two-ul .fa-google-plus-g
+{
+    margin-right: 10px;
+    display: inline-block;
+    color:#e9700e;
+}
+.section7 .doc-2 .two
+{
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0px;
+font-family: 'Work Sans', sans-serif;
+transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+}
+.section7 .doc-2:hover .two{
+    color: rgb(47, 137, 252);
+}
+.section7 .doc-2 .sp-3
+{
+   text-transform: uppercase;
+   color: rgb(179, 179, 179);
+   display: block;
+   letter-spacing: 1px;
+   margin-bottom: 0.9rem;
+   margin-top:10px;
+   font-family: 'Work Sans', sans-serif;
+}
+.section7 .doc-2 .p-doc
+{
+    font-family: 'Work Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+/*****************part2*******************************/
+/*****************part3*******************************/
+
+.section7 .doc-3
+{
+  position: relative;
+    width:23%;
+    height:500px;
+    border:1px solid #fff;
+    margin-top:70px;
+    float:left;
+    margin-left:2%;
+    overflow: hidden;
+}
+.section7 .doc-3 .doctor3
+{
+    width:100%;
+    height:310px;
+    border:1px solid #fff;
+    background-size: cover;
+   background-position: fixed;
+   overflow: hidden;
+}
+.section7 .doc-3 .doctor3 img{max-width: 100%;height: 100%;transition: 1s;}
+.section7 .doc-3:hover img{transform: scale(1.2);}
+.section7 .doc-3 .overlay .three-ul
+{
+  position: absolute;
+    left: 0px;
+    right: 0px;
+    padding: 10px 10px;
+    background: rgb(255, 255, 255);
+    width:100%;
+    border:1px solid #fff;
+    margin-top:-40px;
+    opacity: 0;
+    -webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out;
+}
+.section7 .doc-3:hover .three-ul{opacity: 1;}
+.section7 .doc-3 .overlay .three-ul .fa-twitter,.section7 .doc-3 .overlay .three-ul .fa-facebook ,.section7 .doc-3 .overlay .three-ul .fa-instagram,
+.section7 .doc-3 .overlay .three-ul .fa-google-plus-g
+{
+    margin-right: 10px;
+    display: inline-block;
+    color:#e9700e;
+}
+.section7 .doc-3 .three
+{
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0px;
+font-family: 'Work Sans', sans-serif;
+transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+}
+.section7 .doc-3:hover .three{
+    color: rgb(47, 137, 252);
+}
+.section7 .doc-3 .sp-3
+{
+   text-transform: uppercase;
+   color: rgb(179, 179, 179);
+   display: block;
+   letter-spacing: 1px;
+   margin-bottom: 0.9rem;
+   margin-top:10px;
+   font-family: 'Work Sans', sans-serif;
+}
+.section7 .doc-3 .p-doc
+{
+    font-family: 'Work Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+/*****************part3*******************************/
+/*****************part4*******************************/
+.section7 .doc-4
+{
+  position: relative;
+    width:23%;
+    height:500px;
+    border:1px solid #fff;
+    margin-top:70px;
+    float:left;
+    margin-left:2%;
+    overflow: hidden;
+}
+.section7 .doc-4:hover img{transform: scale(1.2);}
+.section7 .doc-4 .doctor4
+{
+    width:100%;
+    height:310px;
+    border:1px solid #fff;
+   background-position: fixed;
+   overflow: hidden;
+}
+.section7 .doc-4 .doctor4 img{max-width: 100%;height: 100%;transition: 1s}
+.section7 .doc-4 .overlay .four-ul
+{
+  position: absolute;
+    left: 0px;
+    right: 0px;
+    padding: 10px 10px;
+    background: rgb(255, 255, 255);
+    width:100%;
+    border:1px solid #fff;
+    margin-top:-40px;
+    opacity: 0;
+    -webkit-transition:all 1s ease-in-out;
+    -moz-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+}
+.section7 .doc-4:hover .four-ul{opacity: 1;}
+
+.section7 .doc-4 .overlay .four-ul .fa-twitter,.section7 .doc-4 .overlay .four-ul .fa-facebook ,.section7 .doc-4 .overlay .four-ul .fa-instagram,
+.section7 .doc-4 .overlay .four-ul .fa-google-plus-g
+{
+    margin-right: 10px;
+    display: inline-block;
+    color:#e9700e;
+}
+.section7 .doc-4 .four
+{
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0px;
+font-family: 'Work Sans', sans-serif;
+transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+}
+.section7 .doc-4:hover .four{
+    color: rgb(47, 137, 252);
+}
+.section7 .doc-4 .sp-3
+{
+   text-transform: uppercase;
+   color: rgb(179, 179, 179);
+   display: block;
+   letter-spacing: 1px;
+   margin-bottom: 0.9rem;
+   margin-top:10px;
+   font-family: 'Work Sans', sans-serif;
+}
+.section7 .doc-4 .p-doc
+{
+    font-family: 'Work Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+/*****************part4*******************************/
+/**--------------------------------------------------------------------------------*/
+/*media mobile screen 0-767*/ /* small 768-991*/
+@media(max-width:767px){
+     /***********PART 1*********************/
+     .section7 .cont-2
+     {
+         border:1px solid white;
+         width:100%;
+         height:2292px;
+         margin-top:0px;
+     }
+     .section7 .doc-1
+     {
+         width:100%;
+         height:500px;
+         border:1px solid #fff;
+         margin-top:20px;
+     }
+     .section7 .doc-1 .doctor1
+     {
+         width:100%;
+
+     }
+     /*****************part1*******************************/
+     /*****************part2*******************************/
+     .section7 .doc-2
+     {
+         width:100%;
+         height:500px;
+         border:1px solid #fff;
+         margin-top:20px;
+         margin-left:0;
+     }
+     .section7 .doc-2 .doctor2
+     {
+         width:100%;
+     }
+     /*****************part2*******************************/
+     /*****************part3*******************************/
+
+     .section7 .doc-3
+     {
+         width:100%;
+         height:500px;
+         border:1px solid #fff;
+         margin-top:20px;
+         margin-left:0;
+     }
+     .section7 .doc-3 .doctor3
+     {
+         width:100%;
+     }
+
+     /*****************part3*******************************/
+     /*****************part4*******************************/
+     .section7 .doc-4
+     {
+         width:100%;
+         height:500px;
+         border:1px solid #fff;
+         margin-top:20px;
+         margin-left:0;
+     }
+     .section7 .doc-4 .doctor4
+     {
+         width:100%;
+     }
+}
+/****------------------------------------------***/
+
+/* start media small screen*/
+@media (min-width: 768px) and (max-width: 991px){
+ /***********PART 1*********************/
+ .section7 .cont-2
+ {
+     border:1px solid white;
+     width:100%;
+     height:2292px;
+     margin-top:0px;
+ }
+ .section7 .doc-1
+ {
+     width:48%;
+     height:450px;
+     border:1px solid #fff;
+     margin-top:20px;
+ }
+ .section7 .doc-1 .doctor1
+ {
+     width:100%;
+
+ }
+ /*****************part1*******************************/
+ /*****************part2*******************************/
+ .section7 .doc-2
+ {
+     width:48%;
+     height:450px;
+     border:1px solid #fff;
+     margin-top:20px;
+     margin-left:0;
+     float:right;
+ }
+ .section7 .doc-2 .doctor2
+ {
+     width:100%;
+ }
+ /*****************part2*******************************/
+ /*****************part3*******************************/
+
+ .section7 .doc-3
+ {
+     width:48%;
+     height:450px;
+     border:1px solid #fff;
+     margin-top:20px;
+     margin-left:0;
+ }
+ .section7 .doc-3 .doctor3
+ {
+     width:100%;
+ }
+
+ /*****************part3*******************************/
+ /*****************part4*******************************/
+ .section7 .doc-4
+ {
+     width:48%;
+     height:450px;
+     border:1px solid #fff;
+     margin-top:20px;
+     margin-left:0;
+     float:right;
+ }
+ .section7 .doc-4 .doctor4
+ {
+     width:100%;
+ }
+}
+
+/*------------------------------------------------------------*/
+/*start medium screen*/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .section7 .doc-2,
+    .section7 .doc-3,
+    .section7 .doc-4
+    {
+        margin-left:15.5px;
+        width:24%;
+    }
+}
+
+
+
+/**********************************************End section7******************************************************/
+/*Start Section 8 */
+/******CAurosal******/
+.cont-8
+{
+  padding: 50px;
+  background-color:#fafafa;
+}
+.carousel-item  img
+{
+        width: 120px;
+        height: 120px;
+        border-radius: 5px;
+        margin-top:100px;
+        position: relative;
+        float:left;
+        margin-left:250px;
+
+}
+.carousel-item .item-ri
+{
+    float:left;
+    width:50%;
+    height:260px;
+    margin-top:50px;
+    margin-left:20px;
+}
+.carousel-item .item-ri .quote
+{
+    float:left;
+    margin-left:20px;
+}
+.carousel-item .item-ri .quote svg{
+    font-size: 44px;
+    color: rgb(47, 137, 252);
+}
+.carousel-item .item-ri .item-p
+{
+    display:inline-block;
+    text-align: left;
+    margin-left:20px;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.733);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin-top:10px;
+}
+.carousel-item .item-ri .item-p2
+{
+    font-weight: 400;
+   font-size: 18px;
+   margin-bottom: 0px;
+   color: rgb(0, 0, 0);
+   text-align: left;
+   font-family: 'Work Sans', sans-serif;
+   margin-left:20px;
+}
+.carousel-item  .item-sp
+{
+  font-size: 14px;
+   color: rgb(47, 137, 252);
+   font-family: 'Work Sans', sans-serif;
+   float: left;
+   margin-left: 20px;
+   margin-top:5px;
+}
+
+/*****************/
+
+
+ .carousel-indicators li
+{
+        width: 10px;
+        height: 10px;
+        margin-left:10px;
+        border-radius: 50%;
+        opacity: 1;
+        border:1px double rgb(175, 166, 166);
+        background: rgba(163, 154, 154, 0.2);
+}
+#carouselExampleIndicators .carousel-indicators .active
+{
+  width: 10px!important;
+  height: 10px!important;
+  margin-left: 10px!important;
+    opacity: 1;
+    border: 1px solid rgba(53, 49, 49, 0.2);
+    background: rgb(47, 137, 252);
+    margin-top:1px;
+}
+
+/******CAurosal******/
+
+/*Start media mobile*/
+@media(max-width:1199px)
+{
+
+    .carousel-item   img
+    {
+            width: 120px;
+            height: 120px;
+            border-radius: 5px;
+            margin-top:100px;
+            position: relative;
+            float:left;
+            margin-left:0;
+    }
+    .carousel-item  .item-ri
+    {
+        float:left;
+        width:50%;
+        height:260px;
+        margin-top:50px;
+        margin-left:20px;
+    }
+
+    /*****************/
+
+ .carousel-indicators {
+        bottom: -36px;
+    }
+
+
+}
+
+
+/*End Section 8*/

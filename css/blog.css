@@ -1,0 +1,277 @@
+*{box-sizing: border-box;margin: 0;padding: 0}
+/*nav2*/
+body{
+    font-family: 'Work Sans', sans-serif;}
+button{outline:none!important}
+
+.labell a{text-decoration: none;color: white}
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    margin-bottom: 5px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #2f89fc;
+    background-color: white;
+}
+.navbar-nav {display: inline-block;}
+.labell{padding: 23px;
+    border-radius: 30px;
+    height: 50px;
+    line-height: 0px;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #ff8000;
+    outline: none;
+  }
+
+/*nav2*/
+
+/*start fixed section*/
+.fixedsection {
+    position: relative;
+}
+.fixedsection .bigcont{
+    width:100%;
+    height: 300px;
+    background-image: url("../imgs/bg_1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+}
+.fixedsection .overlay {
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    height: 300px;
+    background-color:rgba(47, 137, 252,0.6);
+    z-index:9999;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+    position: center center;
+
+}
+.fixedsection .overlay a{
+    text-decoration: none;
+    font-size:15px;
+    letter-spacing: 1px;
+    color:rgb(230, 230, 230);
+    letter-spacing: 1.5px;
+
+}
+.fixedsection .overlay h2{
+    font-size:47px;
+    font-weight: bold;
+
+
+}
+.fixedsection .overlay  span{
+    font-size:15px;
+     letter-spacing: 1.5px;
+     color:rgb(230, 230, 230);
+
+}
+.fixedsection .overlay .text {
+    margin: 8px;
+    margin-top: 7px;
+    padding: 8px;
+}
+/*end fixed section*/
+
+/*rawan*/
+.blogg
+{
+    margin-top: 20px;
+    font-weight: 400;
+    font: 16px bold;
+    display: block;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    position: relative;
+}
+
+.head
+{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: inherit;
+    margin-top:0;
+
+}
+.heading{text-align: center;}
+.heading{transition: 1s}
+.paragraph
+{
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.mydiv1,.mydiv2,.mydiv3
+{
+    position: relative;
+    border: 1px solid white;
+    margin: 10px;
+    display:inline-block;
+    background: white;
+    text-align:left;
+    width: 31.33%;
+}
+@media only screen and (max-width:600px){
+  .mydiv1,.mydiv2,.mydiv3{width: 100%}
+  .heading2{margin-top: 20%}
+  .paragraph{width: 100%;margin: 0;margin-bottom: 20px;}
+  .rawan{margin-top: 20%}
+}
+.mydiv1{
+    background-image: url('../images/image_1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:relative;
+    box-sizing: border-box;
+}
+.mydiv2{
+    background-image: url('../images/image_2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:relative;
+    box-sizing: border-box;
+}
+.mydiv3{
+    background-image: url('../images/image_3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:relative;
+    box-sizing: border-box;
+}
+.date
+{
+    width:60px;
+    height:100px;
+    display: block;
+    background: #2f89fc
+
+}
+.day,.mos,.yr
+{
+    display:block;
+    text-align: center;
+    color: white;
+}
+.text
+{
+    margin:8px;
+    margin-top: 150px;
+    padding:8px;
+}
+.heading2{font-size: 20px;cursor: pointer;}
+.heading2:hover{
+color:#2f89fc;;
+}
+
+.buttonn
+{
+    display: inline;
+    background: #2f89fc;
+    border: 1px solid #2f89fc;
+    color: #fff;
+    font-weight: 400px;
+    text-align: center;
+    border: 1px solid #2f89fc;
+    border-radius: 40px;
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    padding:10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.buttonn:hover{background: white;color: #2f89fc }
+
+.Admin
+{
+
+    color: #2f89fc;
+    display:inline;
+    font-size: 15px;
+    letter-spacing: 1px;
+     margin-left: 40%;
+}
+/*end rawan*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+/*part two*/
+.footer{position: relative;padding: 30px;background:#000000eb;color: white;padding-top: 100px;padding-bottom: 150px;top:100px}
+.footer h5{font-size: 25px;margin-bottom: 40px;}
+.footer .care{padding: 20px;}
+.footer .care h5{color: #2F89FC}
+.footer .care h5 span{color:#FE8001}
+.footer .care .i1 p{color: #ffffffa3;margin-bottom: 40px;width: 86%;float: right;margin-top: -20px;}
+.footer .care .i1 svg{font-size:20px;color: white;width: 10%;margin-right: 30px;float: left;transition: .5s}
+.footer .care h4{margin-bottom: 30px}
+.footer .care .twitter,.footer .care .insta,.footer .care .face{float: left;width: 50px!important;height: 50px!important;border-radius: 50%;line-height: 50px;text-align: center;margin-right: 10px;font-size: 20px;background: rgba(255, 255, 255, 0.05);transition:.5s}
+.footer .care .twitter:hover{background: white;color:#FE8001}
+.footer .care .insta:hover{background: white;color:#FE8001}
+.footer .care .face:hover{background: white;color:#FE8001}
+.blog .blog1 img{width: 32%;float: left;margin-right: 4%;}
+.blog .blog1 p{color: #ffffffa3}
+.blog .Info{width: 60%;float: left;margin-bottom:30px}
+.blog .Info span{color: #ffffffa3}
+.footer .links{padding: 20px;}
+.links ul{list-style-type: none;color: #ffffffa3 }
+.links ul li{margin-bottom:5px;cursor: pointer;}
+.hours{padding-left:30px}
+.hours h6{margin-bottom: 35px;}
+.hours input{text-indent:10%;width: 90%;height: 10%;outline: none;background: rgba(255, 255, 255, 0.1);border: none;margin-bottom: 10px;color: white}
+.hours input::placeholder{text-indent:20%;color: white}
+.hours button{width: 90%;height: 10%;outline: none;background:#2F89FC;border: none;color:white;transition: 1s}
+.hours button:hover{background: #FE8001;}
+@media only screen and (max-width: 600px) {
+  .hours input ,.hours button{height:20%}
+}
+.copy{color: white;position: absolute;}
+.copy p{margin-left: 200px;font-size: 16px;}
+.copy p span{color: #FE8001}
